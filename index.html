@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------------- UNICONS ------------------>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/2412f014b0.js" crossorigin="anonymous"></script>
+
+    <!-- link with css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- ===========SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <title>Portfolio</title>
+
+
+
+
+</head>
+<body>
+
+    <!---========= HEADER  ===========-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nisrine</a>
+
+
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link active-link">
+                            <i class="fa-solid fa-house nav__icon"></i> Home
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#About" class="nav__link">
+                            <i class="fa-solid fa-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Skills" class="nav__link">
+                            <i class="fa-solid fa-briefcase nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#Projects" class="nav__link ">
+                            <i class="fa-solid fa-file-lines nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#Certifications" class="nav__link">
+                            <!-- <i class="fa-regular fa-image"></i>  -->
+                            <i class="fa-solid fa-certificate nav__icon"></i> Certifications
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#Contact" class="nav__link">
+                            <i class="fa-solid fa-envelope nav__icon "></i> Contact me
+                        </a>
+                    </li>
+
+                </ul>
+
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+
+            </div>
+
+            <div class="nav__btns">
+
+                <!-- Theme change button -->
+                <i class="fa-regular fa-moon change-theme " id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <!--=========== MAIN =========== -->
+    <main class="main">
+
+
+
+        <!--=========== HOME ============ -->
+        <section class="home section" id="Home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/nisrine-zaida-318721212/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+
+                        <a href="https://github.com/nisrine21" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                <image class="home__blob-img" xlink:href="./assets/img/nis3.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+
+                    <div class="home__data">
+                        <h3 class="home__title"> Hi there :) , I am Nisrine </h3>
+                        
+                        <p class="home__description"> Network and Telecommunications engineering student.</p>
+
+                        <a href="#Contact" class="button button--flex">
+                                DM Me <i class="fa-solid fa-inbox button__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#About" class="home__scroll-button button--flex">
+                        <i class="fa-solid fa-computer-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">  Scroll down</span>
+                        <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--======== ABOUT ============ -->
+        <section class="about section" id="About">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/intro (1).png" alt="" class="about__img">
+
+                <div class="about__data">
+
+                    <!-- QUALIFICATION -->
+
+                    <div class="about__info">
+
+                                            <!-- QUALIFICATION 1 -->
+
+                        <div class="about__box">
+                            <i class="fa-solid fa-pen-ruler about__icon"></i>                            
+
+                                <div>
+                                    <h3 class="about__title">
+                                        Education
+                                    </h3>
+                                    <span class="about__subtitle">Engineering degree-Network and telecommunications</span>
+                                    <span class="about__year">
+                                        2020-2025
+                                    </span>
+                            </div>
+                        </div>
+
+                                            <!-- QUALIFICATION 2 -->
+
+
+                        <div class="about__box">
+                            <i class="fa-solid fa-building about__icon"></i>
+
+                                <div>
+                                    <h3 class="about__title">
+                                        Internship
+                                    </h3>
+                                    <span class="about__subtitle">Network engineering | internship -Inova Services</span>
+                                    <span class="about__year">
+                                        15 july-15 august 2023
+                                    </span>
+                                </div>
+                        </div>
+
+
+                        
+                    </div>
+
+                    
+
+                    <p class="about__description">
+                        Seeking a forward-thinking company for an internship starting from July. Fourth-year engineering student passionate about Cloud & DevOps, aiming for a long-term career. Keen on eco-friendly and socially impactful projects. Thrive in diverse, innovative teams. Actively enhancing skills through online courses, committed to continuous learning and self-improvement.
+                    </p>
+                    
+    
+                    <div class="about__buttons">
+                        <a download="" href="./assets/pdf/CV ZAIDA Nisrine.pdf" class="button button--flex">
+                            Download CV <i class="fa-solid fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+
+        <!-- ===========SKILLS ============-->
+
+        <section class="skills section" id="Skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My abilities</span>
+
+
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Networks</h3>
+
+                    <div class="skills__box">
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Switching & Routing</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Protocols</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Subnetting</h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check v"></i>
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+                            
+                        </div> -->
+                    </div>
+                </div>
+
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Computer Science</h3>
+
+                    <div class="skills__box">
+                        
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">JAVA</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Csharp</h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <i class="fa-regular fa-circle-check skills__icon"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ===========PROJECTS========== -->
+        <section class="projects section" id="Projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">What I made</span>
+
+            <div class="projects__container container grid">
+                <!-- ==============PROJECT1 ===============-->
+                <div class="projects__content">
+                    
+                    <div>
+                        <i class="fa-brands fa-python projects__icon"></i>
+                        <h3 class="projects__title">Astronaute <br> Game</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link projects__button">
+                        View More
+                        <i class="fa-solid fa-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="projects__modal">
+                        <div class="projects__modal-content">
+
+                            <h4 class="projects__modal-title">Astronaute <br> Game</h4>
+                            <i class="fa-solid fa-xmark projects__modal-close"></i>
+
+                            <ul class="projects__modal-projects grid">
+                                <li class="projects__modal-project">
+
+                                    <div class="project__img">
+                                        <img src="./assets/img/pygkan.png" alt="">
+                                    </div>
+
+                                    <i class="fa-regular fa-circle-check projects__modal-icon"></i>
+                                    
+                                    <p class="projects__description">Embark on an exhilarating journey through space with "Astronaut Adventure," 
+                                        a captivating game where players pilot their own astronaut through cosmic challenges. 
+                                        Dive into the depths of the universe, dodging comets and exploring distant planets, 
+                                        all while uncovering fascinating facts about space.
+                                        Astronaut Adventure combines thrilling gameplay with educational content, providing an entertaining and enlightening experience for players of all ages.
+
+                                        <a href="https://github.com/nisrine21/Astronaute-Game" target="_blank" class="home__social-icon">
+                                            <i class="fa-brands fa-github projects__modal-icon"></i>
+                                        </a>
+                                    </p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ==============PROJECT2 ===============-->
+                <div class="projects__content">
+                        <div>
+                            <i class="fa-solid fa-circle-nodes projects__icon"></i>
+                            <h3 class="projects__title">GSM Mobile <br>Networks In real time</h3>
+                        </div>
+    
+                        <span class="button button--flex button--small button--link projects__button">
+                            View More
+                            <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">GSM Mobile Networks <br> In real time</h4>
+                                <i class="fa-solid fa-xmark projects__modal-close"></i>
+    
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+
+                                        <div class="project__img">
+                                            <img src="./assets/img/GSM.png" alt="">
+                                        </div>
+
+                                        <i class="fa-regular fa-circle-check projects__modal-icon"></i>
+                                        <p class="projects__description">Experience a comprehensive simulation of point-to-point mobile communication scenarios, both with and without the use of relays.
+                                           Delve into the intricacies of mobile networks and explore the impact of relays on communication efficiency. 
+                                           This simulation offers valuable insights into the dynamics of mobile communication systems. Whether examining direct connections or evaluating relay-enhanced scenarios.
+                                        </p>
+    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                </div>
+
+                <!-- ==============PROJECT3 ===============-->
+                <div class="projects__content">
+                        <div>
+                            <i class="fa-brands fa-java projects__icon"></i>
+                            <h3 class="projects__title">Chat <br> Application</h3>
+                        </div>
+    
+                        <span class="button button--flex button--small button--link projects__button">
+                            View More
+                            <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Astronaute <br> Game</h4>
+                                <i class="fa-solid fa-xmark projects__modal-close"></i>
+    
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+
+                                        <div class="project__img">
+                                            <img src="./assets/img/ChatApp.png" alt="">
+                                        </div>
+
+                                        <i class="fa-regular fa-circle-check projects__modal-icon"></i>
+                                        <p class="projects__description">
+                                            A Java-based chat application enabling real-time communication between multiple clients over a network. The server manages connections and facilitates message
+                                            exchange and file sharing among clients. The client interface offers a user-friendly experience with chat functionality
+                                            and intuitive controls for messaging and file sharing. Developed using Java, Swing, and socket programming.
+                                        </p>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                </div>
+            </div>
+    
+        </section>
+
+        
+            
+
+
+        <!-- ========CERTIFICATIONS==========  -->
+        <section class="certifications section" id="Certifications">
+            <h2 class="section__title">Certifications</h2>
+            <span class="section__subtitle">self-study</span>
+
+            <div class="certifications__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--========== CERTIFICATION 1 ==================-->
+                    <div class="certifications__content grid swiper-slide">
+                        <img src="./assets/img/netdevops.png" alt="" class="certifications__img">
+                        <div class="certifications__data">
+                            <h3 class="certifications__title">DevOps for Network Automation</h3>
+                            <p class="certifications__description">
+                                <span class="certifications__title">Technologies :</span>
+                                Docker CI/CD Pipeline Python Virtual Environments Software Design</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/53DE8G5UKXHS" class="button button--flex button--small certifications__button" target="_blank">
+                                Tap here
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--========== CERTIFICATION 2 ==================-->
+                    <div class="certifications__content grid swiper-slide">
+                        <img src="./assets/img/cloud.png" alt="" class="certifications__img">
+                        <div class="certifications__data">
+                            <h3 class="certifications__title">Google Cloud Fundamentals: Core Infrastructure</h3>
+                            <p class="certifications__description">
+                                <span class="certifications__title">Technologies :</span>
+                                Cloud Computing Google Cloud Platform Google Compute Engine</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/QCK75XMJZXYE" class="button button--flex button--small certifications__button" target="_blank">
+                                Tap here
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--========== CERTIFICATION 3 ==================-->
+                    <div class="certifications__content grid swiper-slide">
+                        <img src="./assets/img/cicd.png" alt="" class="certifications__img">
+                        <div class="certifications__data">
+                            <h3 class="certifications__title">DevOps for Network Automation</h3>
+                            <p class="certifications__description">
+                                <span class="certifications__title">Technologies :</span>
+                                Continuous Integration and Continuous Delivery (CI/CD)</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/TT3BTD298HAU" class="button button--flex button--small certifications__button" target="_blank">
+                                Tap here
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--========== CERTIFICATION 4 ==================-->
+                    <div class="certifications__content grid swiper-slide">
+                        <img src="./assets/img/docker.png" alt="" class="certifications__img">
+                        <div class="certifications__data">
+                            <h3 class="certifications__title">Docker Essentials & Building a Containerized Web</h3>
+                            <p class="certifications__description">
+                                <span class="certifications__title">Technologies :</span>
+                                Docker Monitoring Containers</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/QR7QJHGJ62WX" class="button button--flex button--small certifications__button" target="_blank">
+                                Tap here
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-certifications-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-certifications-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+        <!-- =========CONTACTME ======== -->
+        <section class="contact section" id="Contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+
+                <div class="contact__data">
+                    <p class="contact__description">
+                        Thank you for exploring my portfolio! If you have any questions, please don't hesitate to reach out to me via 
+                        <span> <a  target="_blank" href="https://www.linkedin.com/in/nisrine-zaida-318721212/" style="font-weight: bold; color: hsl(var(--hue-color), 69%, 61%);" >LinkedIn</a></span> or <span style="font-weight: bold; color: hsl(var(--hue-color), 69%, 61%);">Email</span> below ⬇️
+                        
+                    </p>
+
+                    <div class="contact__buttons">
+                        <a download="" href="mailto:nisrinezaida@gmail.com" class="button button--flex">
+                            Email Me
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER============ -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Nisrine</h1>
+                <span class="footer__subtitle">Network and Telecommunications engineering student.</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#Projects" class="footer__link">Project</a>
+                    </li>
+    
+    
+                    <li>
+                        <a href="#Certifications" class="footer__link">Certifications</a>
+                    </li>
+    
+    
+                    <li>
+                        <a href="#Contact" class="footer__link">ContactMe</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://github.com/nisrine21" target="_blank" class="footer__social">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+    
+                    <a href="https://www.linkedin.com/in/nisrine-zaida-318721212/" target="_blank" class="footer__social">
+                        <i class="fa-brands fa-linkedin"></i>
+                        
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- ===========SCROLL TOP ========== -->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+    <!-- ===========SWIPER JS ============ -->
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+
+    <!-- link with js MAIN -->
+    <script src="assets/js/main.js"></script>  
+    
+    <!-- =============SCROLL REVEAL =============== -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+</body>
+</html>
