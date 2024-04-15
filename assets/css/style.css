@@ -243,6 +243,8 @@
             border-radius: 1.5rem 1.5rem 0 0;
             transition: .3s;
         }
+
+        
         
     }
 
@@ -436,8 +438,13 @@
         width: 250px;
         justify-self: center;
         align-self: center;
-        /* justify-self: center; */
 
+    }
+
+    .about__data{
+        justify-self: center;
+        align-self: center;
+        width: 300px;
     }
 
     .about__description{
@@ -519,7 +526,7 @@
         row-gap: 2rem;
         padding-top: 1rem;
         gap: 1.5rem;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .skills__content{
@@ -582,7 +589,7 @@
 
     .projects__container{
         gap: 1.5rem;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .projects__content{
@@ -829,7 +836,7 @@
     /* ==========SCROLL UP =========== */
     .scrollup{
         position: fixed;
-        right: 1rem;
+        right: 2.5rem;
         bottom: -10%;
         background-color: var(--first-color);
         opacity: .8;
@@ -883,7 +890,7 @@
 
         .nav__menu{
             padding: 2rem .25rem 4rem;
-            /* max-width: 280px; */
+            max-width: 280px;
         }
 
         .nav__list{
