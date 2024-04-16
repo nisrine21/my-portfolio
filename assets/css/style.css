@@ -906,14 +906,12 @@
             justify-content: center;
         }
 
-        
 
         /* .nav__btns{
             padding-right: 16rem;
         } */
-
-        .home__content{
-            grid-template-columns: .25fr 3fr  ;
+        .home__content {
+            grid-template-columns: .25fr 3fr;
         }
 
         .home__blob{
@@ -1075,8 +1073,12 @@
             text-align:justify;
         }
 
-        .about__info{
-            justify-content: space-between;
+        .about__info {
+            justify-content: space-evenly;
+            margin-bottom: var(--mb-2-5);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
         }
 
 
