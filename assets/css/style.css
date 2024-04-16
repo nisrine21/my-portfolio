@@ -1074,11 +1074,11 @@
         }
 
         .about__info {
-            justify-content: space-evenly;
             margin-bottom: var(--mb-2-5);
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
+            justify-content: center;
         }
 
 
