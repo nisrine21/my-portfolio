@@ -13,6 +13,14 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name: Cache Docker layers
+      uses: actions/cache@v2
+      with:
+        path: /var/lib/docker
+        key: ${{ runner.os }}-docker-${{ hashFiles('**/Dockerfile') }}
+        restore-keys: |
+          ${{ runner.os }}-docker-
+
     - name: Build Docker Image
       run: docker build -t my-portfolio:latest .
 
@@ -20,7 +28,7 @@ jobs:
       run: docker run -d -p 8080:80 my-portfolio
 
     - name: Wait for Docker Container
-      run: sleep 5  # Wait for 5 seconds for the container to start
+      run: sleep 5
 
     - name: Test Web Application
       run: curl -sSf http://localhost:8080 > /dev/null
